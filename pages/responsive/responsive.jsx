@@ -16,7 +16,7 @@ export default function Responsive() {
                 </h2>
                 <div className="md:flex">
                     <div className="md:shrink-0">
-                        <img className="h-48 w-full object-cover md:h-full md:w-48" src="/img/store.jpg" alt="Man looking at item at a store" />
+                        <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://demo.sirv.com/chair.jpg" alt="Man looking at item at a store" />
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
