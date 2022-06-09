@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      
+
       <header className={styles.header}>
         {home ? (
           <>
@@ -60,6 +60,9 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <Link href="/posts/first-post">
+            <a className='text-pink-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'>First Post</a>
+          </Link>
       </header>
 
       <main>{children}</main>
