@@ -7,7 +7,7 @@ export default function gallery({ images }) {
                     <div className="flex flex-wrap -m-1 md:-m-2">
                         {images.slice(0, 30).map((image) => (
                             <div className="flex flex-wrap w-1/3">
-                                <div className="w-full p-1 md:p-2 hover:scale-125">
+                                <div className="w-full p-1 md:p-2">
                                     <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                         src={image.thumbnailUrl} />
                                 </div>
