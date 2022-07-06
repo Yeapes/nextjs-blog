@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 function Mu(){ 
     return(
         <Layout>
-            <Button>Hello world from MU kit</Button> 
+            <Button color="success" size="medium">Hello world from MU kit tt</Button> 
         </Layout>
     );
 }
